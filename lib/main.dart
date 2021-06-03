@@ -16,4 +16,3 @@ class BMICalculator extends StatelessWidget {
     );
   }
 }
-
