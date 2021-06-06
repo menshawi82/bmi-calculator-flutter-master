@@ -11,6 +11,7 @@ class InputPage extends StatefulWidget {
   _InputPageState createState() => _InputPageState();
 }
 
+//3
 class _InputPageState extends State<InputPage> {
   @override
   Widget build(BuildContext context) {
@@ -26,12 +27,19 @@ class _InputPageState extends State<InputPage> {
                 Expanded(
                   child: ReusableCard(
                     colr: cardColor,
-                    cardChiled: IconContent(icon: FontAwesomeIcons.male,label: 'Male',),
+                    cardChiled: IconContent(
+                      icon: FontAwesomeIcons.male,
+                      label: 'Male',
+                    ),
                   ),
                 ),
                 Expanded(
-                  child: ReusableCard(colr: cardColor,
-                  cardChiled: IconContent(icon: FontAwesomeIcons.female,label: 'Female',),
+                  child: ReusableCard(
+                    colr: cardColor,
+                    cardChiled: IconContent(
+                      icon: FontAwesomeIcons.female,
+                      label: 'Female',
+                    ),
                   ),
                 )
               ],

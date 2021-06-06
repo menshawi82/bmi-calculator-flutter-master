@@ -8,7 +8,7 @@ const labelTextStyle = TextStyle(
 class IconContent extends StatelessWidget {
   // const cardchiledWedget({
   //   Key key,
-  // }) : super(key: key);
+  // }) : super(key: key);1
   final IconData icon;
   final String label;
 
